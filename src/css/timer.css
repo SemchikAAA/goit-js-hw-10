@@ -8,13 +8,17 @@
   color: #2e2f42;
 
   padding-left: 16px;
-  border: 1px solid #2e2f42;
+  border: 1.5px solid #cfcfcf;
   border-radius: 4px;
   width: 272px;
   height: 40px;
 }
 
-/* .start-btn {
+#datetime-picker:hover:not(:disabled) {
+  border-color: black;
+}
+
+.start-btn {
   border-radius: 8px;
   padding: 8px 16px;
   width: 75px;
@@ -27,7 +31,16 @@
   font-size: 16px;
   letter-spacing: 0.04em;
   color: #fff;
-} */
+}
+
+.start-btn:disabled {
+  background-color: #cfcfcf;
+  color: #989898;
+}
+
+.start-btn:hover:not(:disabled) {
+  background: #6c8cff;
+}
 
 .timer {
   margin-top: 32px;
